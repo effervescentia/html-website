@@ -1,0 +1,75 @@
+.header {
+  background-color: #fff;
+  top: 0;
+  height: 40px;
+  z-index: 999;
+  width: 100%;
+}
+
+.header a:hover {
+  text-decoration: none;
+  color: #5695ca;
+}
+
+.header, .projnav {
+  position: fixed;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.jumbotron {
+  background-color: #5695ca;
+  height: 400px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 250px;
+}
+
+.jumbotron {
+  color: #fff;
+}
+
+.jumbotron .navbar {
+  margin-top: -48px;
+}
+
+.nav a {
+  color: #323030;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.page {
+  overflow: scroll;
+  margin-top: 40px;
+}
+
+.projnav {
+  background-color: #858585;
+  background-color: rgba(85, 85, 85, 0.6);
+  top: 40px;
+  height: 38px;
+  z-index: 999;
+  width: 100%;
+  display: none;
+}
+
+.projnav a {
+  color: #fff;
+  text-transform: none;
+}
+
+.projnav a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #858585;
+  background-color: rgba(85, 85, 85, 0.3);
+}
