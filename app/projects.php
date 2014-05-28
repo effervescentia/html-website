@@ -68,22 +68,6 @@
       </div>
     </div>
 
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-md-4 section">
-            first
-          </div>
-
-          <div class="col-xs-6 col-md-4 section">
-            next
-          </div>
-
-          <div class="col-xs-6 col-md-4 section">
-            last
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php include('php/footer.php'); ?>
   </body>
 </html>

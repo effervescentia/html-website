@@ -13,10 +13,6 @@
       <div class="jumbotron">
         <div class="container">
           <h1>Contact</h1>
-          <p>
-            <h2>ben.l.teichman@gmail.com</h2>
-            <h2>(519) 501-2684</h2>
-          </p>
         </div>
       </div>
 
@@ -29,5 +25,7 @@
         </div>
       </div>
     </div>
+
+    <?php include('php/footer.php'); ?>
   </body>
 </html>
