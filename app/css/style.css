@@ -1,9 +1,15 @@
+.footer {
+  background-color: #5695ca;
+  height: 400px;
+}
+
 .header {
   background-color: #fff;
   top: 0;
-  height: 40px;
   z-index: 999;
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .header a:hover {
@@ -14,8 +20,17 @@
 .header, .projnav {
   position: fixed;
   left: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
+
+.icon {
+  height: 100px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.jumbo {
+  height: 500px;
 }
 
 .jumbotron {
@@ -55,16 +70,17 @@
 .projnav {
   background-color: #858585;
   background-color: rgba(85, 85, 85, 0.6);
-  top: 40px;
-  height: 38px;
   z-index: 999;
+  top: 60px;
   width: 100%;
   display: none;
+  padding-top: 10px;
 }
 
 .projnav a {
   color: #fff;
   text-transform: none;
+  padding: 11px 10px;
 }
 
 .projnav a:hover {
@@ -72,4 +88,12 @@
   color: #fff;
   background-color: #858585;
   background-color: rgba(85, 85, 85, 0.3);
+}
+
+.projnav a:focus {
+  background-color: red;
+}
+
+.section {
+  text-align: center;
 }
