@@ -102,3 +102,11 @@
 .section {
   text-align: center;
 }
+
+.stackicon {
+  height: 100px;
+}
+
+.stackicon-row {
+  padding: 20px;
+}

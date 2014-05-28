@@ -5,7 +5,7 @@
         <p>
           (519) 501-2684
           <br>
-          ben.l.teichman@gmail.com
+          <a href="mailto:#" style="color: #fff;">ben.l.teichman@gmail.com</a>
         </p>
       </div>
 

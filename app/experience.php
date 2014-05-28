@@ -30,13 +30,38 @@
 
       <div id="groupby">
         <div class="container section jumbo">
+          <img class="icon" src="img/groupby.png">
           <h2>Software Developer</h2>
           <h4>GroupBy Inc.</h4>
+
+          <div class="container">
+            <div class="row stackicon-row">
+              <div class="col-xs-6 col-md-4">
+                <img class="stackicon" src="img/web.png">
+              </div>
+              <div class="col-xs-6 col-md-4">
+                <img class="stackicon" src="img/java.svg">
+              </div>
+              <div class="col-xs-6 col-md-4">
+                <img class="stackicon" src="img/elasticsearch.png">
+              </div>
+            </div>
+
+            <div class="row stackicon-row">
+              <div class="col-xs-6 col-md-6">
+                <img class="stackicon" src="img/jsp.jpg">
+              </div>
+              <div class="col-xs-6 col-md-6">
+                <img class="stackicon" src="img/github.png">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div id="cbsa">
         <div class="container section jumbo">
+          <img class="icon" src="img/cbsa.jpg">
           <h2>Software Architect</h2>
           <h4>Canadian Border Services Agency</h4>
         </div>
@@ -44,6 +69,7 @@
 
       <div id="pricemetrix">
         <div class="container section jumbo">
+          <img class="icon" src="img/pricemetrix.png">
           <h2>Test Automation Developer</h2>
           <h4>PriceMetrix Inc.</h4>
         </div>
@@ -51,6 +77,7 @@
 
       <div id="kpmg">
         <div class="container section jumbo">
+          <img class="icon" src="img/kpmg.jpg">
           <h2>Quality Assurance Analyst</h2>
           <h4>KPMG LLP Canada</h4>
         </div>
