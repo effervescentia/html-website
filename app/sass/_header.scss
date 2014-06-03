@@ -1,0 +1,26 @@
+.nav {
+  a {
+    color: #323030;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-transform: uppercase;
+  }
+
+  li {
+    display: inline;
+  }
+}
+
+.header {
+  background-color: #fff;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+  a:hover {
+      text-decoration: none;
+      color: #5695ca;
+  }
+}

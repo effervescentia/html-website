@@ -1,0 +1,23 @@
+@import 'header';
+@import 'footer';
+@import 'jumbotron';
+@import 'pagenav';
+@import 'icons';
+
+.header, .pagenav, .footer {
+  position: fixed;
+  left: 0;
+}
+
+.jumbo {
+  height: 500px;
+}
+
+.page {
+  overflow: scroll;
+  margin-top: 40px;
+}
+
+.section {
+  text-align: center;
+}

@@ -1,12 +1,10 @@
-.footer {
-  color: #fff;
-  width: 100%;
-  background-color: #5695ca;
-  height: 150px;
-  bottom: 0;
-  border-top: solid white 1px;
-  padding-top: 50px;
-}
+.nav a {
+  color: #323030;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-transform: uppercase; }
+.nav li {
+  display: inline; }
 
 .header {
   background-color: #fff;
@@ -14,99 +12,69 @@
   z-index: 999;
   width: 100%;
   padding-top: 20px;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
+  .header a:hover {
+    text-decoration: none;
+    color: #5695ca; }
 
-.header a:hover {
-  text-decoration: none;
-  color: #5695ca;
-}
-
-.header, .projnav, .footer {
-  position: fixed;
-  left: 0;
-}
-
-.icon {
-  height: 100px;
-  border: 2px solid #ddd;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-.jumbo {
-  height: 500px;
-}
-
-.jumbotron {
+.footer {
+  color: #fff;
+  width: 100%;
   background-color: #5695ca;
-  height: 600px;
-}
-
-.jumbotron .container {
-  position: relative;
-  top: 440px;
-}
+  height: 150px;
+  bottom: 0;
+  border-top: solid white 1px;
+  padding-top: 50px; }
 
 .jumbotron {
   color: #fff;
-}
+  background-color: #5695ca;
+  height: 600px; }
+  .jumbotron .container {
+    position: relative;
+    top: 440px; }
+  .jumbotron .navbar {
+    margin-top: -48px; }
 
-.jumbotron .navbar {
-  margin-top: -48px;
-}
-
-.nav a {
-  color: #323030;
-  font-weight: bold;
-  padding: 10px 10px;
-  text-transform: uppercase;
-}
-
-.nav li {
-  display: inline;
-}
-
-.page {
-  overflow: scroll;
-  margin-top: 40px;
-}
-
-.projnav {
+.pagenav {
   background-color: #858585;
   background-color: rgba(85, 85, 85, 0.6);
   z-index: 999;
   top: 60px;
   width: 100%;
   display: none;
-  padding-top: 10px;
-}
+  padding-top: 10px; }
+  .pagenav a {
+    color: #fff;
+    text-transform: none;
+    padding: 11px 10px; }
+    .pagenav a:hover {
+      text-decoration: none;
+      background-color: #858585;
+      background-color: rgba(85, 85, 85, 0.3); }
 
-.projnav a {
-  color: #fff;
-  text-transform: none;
-  padding: 11px 10px;
-}
-
-.projnav a:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: #858585;
-  background-color: rgba(85, 85, 85, 0.3);
-}
-
-.projnav a:focus {
-  background-color: red;
-}
-
-.section {
-  text-align: center;
-}
+.icon {
+  height: 100px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 10px; }
 
 .stackicon {
-  height: 100px;
-}
+  height: 100px; }
 
 .stackicon-row {
-  padding: 20px;
-}
+  padding: 20px; }
+
+.header, .pagenav, .footer {
+  position: fixed;
+  left: 0; }
+
+.jumbo {
+  height: 500px; }
+
+.page {
+  overflow: scroll;
+  margin-top: 40px; }
+
+.section {
+  text-align: center; }

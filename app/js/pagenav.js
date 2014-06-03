@@ -1,5 +1,5 @@
 $(function() {
-  $('.projnav').slideDown(800);
+  $('.pagenav').slideDown(800);
 });
 
 $('body').scrollspy({ target: '.navbar' });

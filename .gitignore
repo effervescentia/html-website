@@ -1,3 +1,4 @@
 /app/lib/
 /.vagrant/
 /logs/
+/.sass-cache/

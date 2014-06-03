@@ -5,12 +5,12 @@
     <meta name="description" content="Profile of a developer and entrepreneur.">
 
     <?php include('php/style.php'); ?>
-    <script type="text/javascript" src="js/projects.js"></script>
+    <script type="text/javascript" src="js/pagenav.js"></script>
   </head>
   <body>
     <?php include('php/header.php'); ?>
 
-    <div class="nav projnav">
+    <div class="nav pagenav">
       <div class="container">
         <ul class="pull-left">
           <li><a href="#groupby">GroupBy Inc.</a></li>
