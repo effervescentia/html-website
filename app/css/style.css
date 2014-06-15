@@ -59,8 +59,19 @@
   border-radius: 4px;
   padding: 10px; }
 
-.stackicon {
-  height: 100px; }
+.stack-icon, .colour-icon {
+  height: 50px; }
+
+.colour-icon {
+  filter: url(../filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */ }
+  .colour-icon:hover {
+    filter: none;
+    -webkit-filter: grayscale(0); }
 
 .stackicon-row {
   padding: 20px; }

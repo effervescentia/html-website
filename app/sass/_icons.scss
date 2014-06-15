@@ -1,3 +1,14 @@
+@mixin filter-grey() {
+  filter: url(../filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+@mixin unfilter() {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
 .icon {
   height: 100px;
   border: 2px solid #ddd;
@@ -5,8 +16,17 @@
   padding: 10px;
 }
 
-.stackicon {
-  height: 100px;
+.stack-icon {
+  height: 50px;
+}
+
+.colour-icon {
+  @extend .stack-icon;
+  @include filter-grey();
+
+  &:hover {
+    @include unfilter();
+  }
 }
 
 .stackicon-row {

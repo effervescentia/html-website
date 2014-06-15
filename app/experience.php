@@ -35,24 +35,21 @@
           <h4>GroupBy Inc.</h4>
 
           <div class="container">
-            <div class="row stackicon-row">
-              <div class="col-xs-6 col-md-4">
-                <img class="stackicon" src="img/web.png">
+            <div class="row">
+              <div class="col-xs-3 col-md-3">
+                <img class="colour-icon" src="img/jsp.jpg">
               </div>
-              <div class="col-xs-6 col-md-4">
-                <img class="stackicon" src="img/java.svg">
+              <div class="col-xs-2 col-md-2">
+                <img class="stack-icon" src="img/github.png">
               </div>
-              <div class="col-xs-6 col-md-4">
-                <img class="stackicon" src="img/elasticsearch.png">
+              <div class="col-xs-2 col-md-2">
+                <img class="colour-icon" src="img/web.png">
               </div>
-            </div>
-
-            <div class="row stackicon-row">
-              <div class="col-xs-6 col-md-6">
-                <img class="stackicon" src="img/jsp.jpg">
+              <div class="col-xs-2 col-md-2">
+                <img class="colour-icon" src="img/java.svg">
               </div>
-              <div class="col-xs-6 col-md-6">
-                <img class="stackicon" src="img/github.png">
+              <div class="col-xs-3 col-md-3">
+                <img class="colour-icon" src="img/elasticsearch.png">
               </div>
             </div>
           </div>
