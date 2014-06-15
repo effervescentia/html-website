@@ -1,7 +1,7 @@
 HTML Website
 =========
 
-  Current Demo: [BenTeichman.ca](benteichman.ca)
+  Current Demo: [BenTeichman.ca](http://benteichman.ca/)
 
   This website was created using:
    - [PHP](http://www.php.net/) for modular code writing
