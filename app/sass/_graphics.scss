@@ -9,7 +9,7 @@
   -webkit-filter: grayscale(0);
 }
 
-.icon {
+.employer-icon, .project-icon {
   height: 100px;
   border: 2px solid #ddd;
   border-radius: 4px;
@@ -31,4 +31,8 @@
 
 .stackicon-row {
   padding: 20px;
+}
+
+.logo {
+  width: 300px;
 }

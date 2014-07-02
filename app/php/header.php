@@ -4,6 +4,7 @@
       <li><a href="/">home</a></li>
       <li><a href="projects">projects</a></li>
       <li><a href="experience">experience</a></li>
+      <!-- <li><a href="design">graphic design</a></li> -->
       <li><a href="about">about</a></li>
       <li><a href="contact">contact</a></li>
     </ul>
